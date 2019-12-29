@@ -1,2 +1,5 @@
 # IDE Files
 .idea/
+
+# NodeJS
+node_modules/

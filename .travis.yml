@@ -1,6 +1,13 @@
 language: node_js
+
+cache:
+  directories:
+    - node_modules/
+    - frontend/node_modules/
+
 before_install:
   - npm i -g jest
+
 before_script:
   - cd frontend && yarn install && cd ..
 script:

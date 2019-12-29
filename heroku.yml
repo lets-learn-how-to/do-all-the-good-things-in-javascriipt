@@ -1,6 +1,0 @@
-release:
-  command:
-    - make build
-
-run:
-  web: make start

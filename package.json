@@ -1,0 +1,10 @@
+{
+  "name": "do-all-the-good-things-in-javascriipt",
+  "version": "1.0.0",
+  "description": "A clone of twitter and reddit",
+  "main": "server.js",
+  "repository": "git@github.com:lets-learn-how-to/do-all-the-good-things-in-javascriipt.git",
+  "author": "Lawrence <lawrence.goldstien@madetech.com>",
+  "license": "MIT",
+  "private": false
+}

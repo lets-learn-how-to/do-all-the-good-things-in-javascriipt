@@ -1,5 +1,5 @@
 language: node_js
 before_script:
-  - cd frontend && yarn install
+  - cd frontend && yarn install && cd ..
 script:
   - make test

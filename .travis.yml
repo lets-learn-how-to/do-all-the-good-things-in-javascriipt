@@ -8,7 +8,5 @@ cache:
 before_install:
   - npm i -g jest
 
-before_script:
-  - cd frontend && yarn install && cd ..
 script:
   - make test

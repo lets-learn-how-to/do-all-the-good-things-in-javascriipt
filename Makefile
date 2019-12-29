@@ -1,12 +1,15 @@
-export CI=true
-
 start:
 	@yarn start
+
+start-frontend:
+	@cd frontend && yarn start
 
 test: test-frontend test-backend
 
 test-frontend:
-	@cd frontend && yarn test
+	@echo "Testing Frontend..."
+	@cd frontend && CI=true yarn test
 
 test-backend:
-	@yarn test
+	@echo "Testing Backend..."
+	@CI=true yarn test

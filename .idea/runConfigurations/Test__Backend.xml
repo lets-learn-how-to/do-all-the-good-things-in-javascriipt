@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Test::Backend" type="JavaScriptTestRunnerJest">
+    <config-file value="$PROJECT_DIR$/package.json" />
+    <node-interpreter value="$USER_HOME$/.nvm/versions/node/v10.18.0/bin/node" />
+    <node-options value="" />
+    <jest-package value="$USER_HOME$/.nvm/versions/node/v10.18.0/lib/node_modules/jest" />
+    <working-dir value="$PROJECT_DIR$" />
+    <jest-options value="--watchAll" />
+    <envs />
+    <scope-kind value="ALL" />
+    <method v="2" />
+  </configuration>
+</component>
